@@ -1,4 +1,4 @@
-
+import { PilotoF1Puntuado } from "./Interfaces";
 
 export class PilotoF1PuntuadoImpl implements PilotoF1Puntuado {
      _nombre: string;

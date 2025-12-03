@@ -55,6 +55,8 @@ export class Alumno extends Persona {
         return this._calificaciones.reduce((total, c) => total + c.notaFinal, 0) / this._calificaciones.length + 1
     }
 
+    
+
     public toString(): string {
         return `DNI: ${super.dni}, Nombre: ${super.nombre}, Apellidos: ${super.apellidos}, Fecha de Nacimiento: ${super.fechaNacimiento}, Nota Media: ${Math.round(this.getNotaMedia() * 100) / 100}`
     }

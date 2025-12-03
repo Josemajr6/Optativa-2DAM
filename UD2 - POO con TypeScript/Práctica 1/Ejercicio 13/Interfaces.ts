@@ -1,10 +1,10 @@
 // Piloto
-interface PilotoF1 {
+export interface PilotoF1 {
     _nombre: string;
     _escuderia: string;
     _pais: string;
 }
-interface PilotoF1Puntuado extends PilotoF1 {
+export interface PilotoF1Puntuado extends PilotoF1 {
     _circuitos: string[];
     _puntos: number[];
     _puntuacionTotal: number;
@@ -12,7 +12,7 @@ interface PilotoF1Puntuado extends PilotoF1 {
     obtenerPuntuacion(circuito: string): number;
 }
 
-interface CarreraF1 {
+export interface CarreraF1 {
     _circuito: string;
     _pais: string;
     _fecha: Date;

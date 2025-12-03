@@ -1,3 +1,5 @@
+import { CarreraF1, PilotoF1 } from "./Interfaces";
+
 export class CarreraF1Impl implements CarreraF1 {
     _circuito: string;
     _pais: string;
